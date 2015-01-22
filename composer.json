@@ -1,0 +1,37 @@
+{
+    "name": "reactv/framework",
+    "description": "The Reactv Framework.",
+    "keywords": ["framework", "reactv"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shawn Haggard",
+            "email": "shawnhaggard@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "monolog/monolog": "~1.6",
+        "nesbot/carbon": "~1.0",
+        "phpseclib/phpseclib": "0.3.*",
+        "predis/predis": "0.8.*",
+        "swiftmailer/swiftmailer": "~5.1",
+        "cboden/ratchet": "0.3.2",
+        "mustache/mustache": "2.7.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9",
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reactv\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master"
+        }
+    },
+    "minimum-stability": "dev"
+}
