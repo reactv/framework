@@ -1,6 +1,7 @@
 {
     "name": "reactv/framework",
     "description": "The Reactv Framework.",
+    "version": "0.0.1-dev",
     "keywords": ["framework", "reactv"],
     "license": "MIT",
     "authors": [
