@@ -18,7 +18,8 @@
         "predis/predis": "0.8.*",
         "swiftmailer/swiftmailer": "~5.1",
         "cboden/ratchet": "0.3.2",
-        "mustache/mustache": "2.7.0"
+        "mustache/mustache": "2.7.0",
+        "aura/router": "2.2.0"
     },
     "require-dev": {
         "mockery/mockery": "~0.9",
@@ -33,6 +34,11 @@
         "branch-alias": {
             "dev-master": "master"
         }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "bower install"
+        ]
     },
     "minimum-stability": "dev"
 }
